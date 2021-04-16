@@ -1,0 +1,137 @@
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    
+    html {
+        font-size: 62.5%;
+    }
+    
+    header nav ul {
+        min-height: 10vh;
+        display: flex;
+        background-color: rgb(111, 101, 194);
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        flex-grow: 1;
+        color: white;
+        font-family: 'Hind Siliguri', sans-serif;
+    }
+    
+    .right-from-logo {
+        justify-content: center;
+        align-items: center;
+        flex-grow: 1;
+        display: flex;
+        order: 1;
+        list-style: none;
+        text-align: center;
+        font-size: 2rem;
+    }
+    
+    .right-from-logo li {
+        flex-grow: 1;
+    }
+    
+    .left-from-logo li {
+        flex-grow: 1;
+    }
+    
+    .left-from-logo {
+        justify-content: center;
+        align-items: center;
+        flex-grow: 1;
+        display: flex;
+        order: 3;
+        list-style: none;
+        text-align: center;
+        font-size: 2rem;
+    }
+    
+    .logo {
+        order: 2;
+        font-family: 'Karantina', sans-serif;
+        list-style: none;
+        flex-grow: 1;
+        text-align: center;
+        font-size: 4rem;
+    }
+    
+    .hero {
+        min-height: 90vh;
+        background-image: linear-gradient(rgba(0, 0, 0, 0.5), transparent), url('../assets/pexels-danny-meneses-943096.jpg');
+        background-size: cover;
+        background-position: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    
+    .hero button {
+        padding: 1rem 2rem;
+        margin: 2rem 2rem;
+        outline: none;
+        cursor: pointer;
+        background-color: rgb(36, 32, 53);
+        color: white;
+        border: 0;
+        font-size: 1.8rem;
+    }
+    
+    .hero h2 {
+        margin-bottom: 2rem;
+        padding: 0 20rem;
+        color: white;
+        font-size: 1.8rem;
+        text-align: left;
+    }
+    
+    .first-word {
+        padding-left: 5rem;
+    }
+    
+    .hero-section {
+        min-height: 100vh;
+        display: flex;
+        flex-direction: row;
+    }
+    
+    .intro-img {
+        width: 50vw;
+        background-image: url("../assets/pexels-mikhail-nilov-6964173.jpg");
+        flex-grow: 1;
+        background-size: cover;
+        background-position: center;
+    }
+    
+    .intro-text {
+        width: 50vw;
+        background-color: rgb(36, 32, 53);
+        flex-grow: 1;
+        text-align: center;
+        font: Helvetica;
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    
+    .hero-section .intro-text-title {
+        font-size: 2.5rem;
+        text-shadow: 1rem 1rem 5rem black;
+        padding: 5rem 10rem 5rem 10rem;
+    }
+    
+    .hero-section .intro-text-article {
+        padding: 5rem 4rem 5rem 4rem;
+        text-align: left;
+        font-size: 2rem;
+    }
+    
+    .hero-section .intro-text-article-first-word {
+        padding-left: 5rem;
+    }

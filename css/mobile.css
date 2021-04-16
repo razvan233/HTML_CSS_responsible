@@ -1,0 +1,35 @@
+header nav ul {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo {
+    justify-content: center;
+    align-items: center;
+    order: 1;
+}
+
+.right-from-logo {
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    order: 2;
+}
+
+.left-from-logo {
+    width: 100vw;
+    order: 3;
+}
+
+.right-from-logo li {
+    width: 33vw;
+}
+
+.left-from-logo li {
+    width: 33vw;
+}
+
+.hero h2 {
+    padding-right: 2rem;
+}
